@@ -1,15 +1,15 @@
-import { FiPlus } from 'react-icons/fi'
-import { Input } from '../../componentes/Input/index.jsx'
-import { Section } from '../../componentes/Section/index.jsx'
-import { Note } from '../../componentes/Note/index.jsx' 
-import { Container, Brand, Menu, Search, Content, NewNote } from './styles.js'
-import { ButtonText } from '../../componentes/ButtonText/index.jsx'
-import { Header } from '../../componentes/Header/index.jsx'
-import { useNavigate } from 'react-router-dom'
+import { FiPlus } from 'react-icons/fi';
+import { Input } from '../../componentes/Input/index.jsx';
+import { Section } from '../../componentes/Section/index.jsx';
+import { Note } from '../../componentes/Note/index.jsx' ;
+import { Container, Brand, Menu, Search, Content, NewNote } from './styles.js';
+import { ButtonText } from '../../componentes/ButtonText/index.jsx';
+import { Header } from '../../componentes/Header/index.jsx';
+import { useNavigate } from 'react-router-dom';
 
-import { api } from '../../services/api.js'
-import { useState } from 'react'
-import { useEffect } from 'react'
+import { api } from '../../services/api.js';
+import { useState } from 'react';
+import { useEffect } from 'react';
 
 export function Home() {
   const [search, setSearch] = useState('');
