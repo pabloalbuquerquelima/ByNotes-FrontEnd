@@ -4,8 +4,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { Input } from "../../componentes/Input";
 import { Button } from "../../componentes/Button";
 import ByNotes from "../../assets/ByNotes-icon.png";
-import {FiLogIn, FiMail, FiLock, FiUser} from 'react-icons/fi';
-import { api } from "../../services/api"
+import { FiMail, FiLock, FiUser} from 'react-icons/fi';
+import { api } from "../../services/api";
 
 export function SingUp() {
 
@@ -27,9 +27,9 @@ export function SingUp() {
         })
         .catch( error => {
             if(error.response){
-                alert(error.response.data.message)
+                alert(error.response.data.message);
             } else {
-                alert('Não foi possível cadastrar')
+                alert('Não foi possível cadastrar');
             }
         })
     }
@@ -39,7 +39,7 @@ export function SingUp() {
             <Background></Background>
 
             <Form>
-                <img src={ByNotes} alt="ByNotes icone" />
+                <img src={ByNotes} alt="ByNotes" />
                 <h1>ByNotes</h1>
                 <p>Aplicação para salvar e gerenciar seus links úteis</p>
 
@@ -68,7 +68,7 @@ export function SingUp() {
                 <Button title='Cadastrar' onClick={handleSignUp}></Button>
 
 
-                <a href="#">Voltar para o login</a>
+                <Link to='/'>Voltar para o login</Link>
             </Form>
 
         </Container>
