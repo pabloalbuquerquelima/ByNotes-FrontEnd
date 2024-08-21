@@ -74,4 +74,8 @@ svg{
     margin-right: 8px;
 }
 
+img{
+    
+}
+
 `;
