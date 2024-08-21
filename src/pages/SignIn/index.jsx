@@ -8,7 +8,7 @@ import { Button } from "../../componentes/Button";
 import ByNotes from "../../assets/ByNotes-icon.png";
 import {FiMail, FiLock} from 'react-icons/fi';
 
-export function SingIn() {
+export function SignIn() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 

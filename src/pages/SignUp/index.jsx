@@ -7,7 +7,7 @@ import ByNotes from "../../assets/ByNotes-icon.png";
 import { FiMail, FiLock, FiUser} from 'react-icons/fi';
 import { api } from "../../services/api";
 
-export function SingUp() {
+export function SignUp() {
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");

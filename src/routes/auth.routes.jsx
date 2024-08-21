@@ -1,20 +1,19 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 
 
-import { SingIn } from '../pages/SignIn'
-import { SingUp } from '../pages/SignUp'
+import { SignIn } from '../pages/SignIn'
+import { SignUp } from '../pages/SignUp'
 
 export function AuthRoutes(){
 
     const user = localStorage.getItem('@by-notes:token');
 
-    return(
+    return (
         <Routes>
-
-            <Route path='/' element={<SingIn/>}/>
-           { !user && <Route path='/register' element={<Navigate to='/'/>}/> }
-
+           <Route path='/' element={<SignIn />} />
+           <Route path='/register' element={<SignUp />} />
+          
+          {!user && <Route path="*" element={<Navigate to="/"/>} />}
         </Routes>
-
-    )
+    );
 }
