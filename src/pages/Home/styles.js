@@ -29,9 +29,9 @@ border-bottom-style:solid;
 border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
 
-h1{
-    font-size: 24px;
-    color: ${({theme}) => theme.COLORS.ORANGE};
+img{
+    width: 80px;
+    height: 80px;
 }
 
 `;
@@ -72,11 +72,6 @@ justify-content: center;
 
 svg{
     margin-right: 8px;
-}
-
-img{
-    width: 80px;
-    height: 80px;
 }
 
 `;
