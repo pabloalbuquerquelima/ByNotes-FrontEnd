@@ -30,8 +30,8 @@ border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
 
 img{
-    width: 80px;
-    height: 80px;
+    width: 55px;
+    height: 55px;
 }
 
 `;
