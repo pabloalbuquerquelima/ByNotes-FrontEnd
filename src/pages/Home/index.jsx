@@ -6,7 +6,7 @@ import { Container, Brand, Menu, Search, Content, NewNote } from './styles.js';
 import { ButtonText } from '../../componentes/ButtonText/index.jsx';
 import { Header } from '../../componentes/Header/index.jsx';
 import { useNavigate } from 'react-router-dom';
-import ByNotes from "../../assets/ByNotes-icon.png";
+import ByNotes from "../../assets/ByNotes-logo.png";
 
 import { api } from '../../services/api.js';
 import { useState } from 'react';
