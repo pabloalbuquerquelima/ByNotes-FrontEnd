@@ -23,7 +23,7 @@ export function SignIn() {
         <Container>
             <Form>
                 <img src={ByNotes} alt="ByNotes icone" />
-                <h1>ByNotes</h1>
+                {/* <h1>ByNotes</h1> */}
                 <p>Aplicação para salvar e gerenciar seus links úteis</p>
 
                 <h2>Faça seu login</h2>

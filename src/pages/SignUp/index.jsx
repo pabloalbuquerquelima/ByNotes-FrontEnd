@@ -40,7 +40,6 @@ export function SignUp() {
 
             <Form>
                 <img src={ByNotes} alt="ByNotes" />
-                <h1>ByNotes</h1>
                 <p>Aplicação para salvar e gerenciar seus links úteis</p>
 
                 <h2>Crie sua conta</h2>

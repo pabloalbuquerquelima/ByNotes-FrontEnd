@@ -39,8 +39,9 @@ a{
 }
 
 img{
-    width: 70px;
-    height: 70px;
+    width: 221px;
+    height: 114px;
+    margin-bottom: 20px;
 }
 `
 
